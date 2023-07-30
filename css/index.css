@@ -1,0 +1,60 @@
+/* 首页样式 */
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.welcome-section .hello {
+    color: #f0f0f0;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.welcome-section .job {
+    color: #be3144;
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.projects-section {
+    overflow: hidden;
+    padding: 10rem 2rem;
+    background-color: #45567d;
+    text-align: center;
+}
+.projects-section .projects-hd {
+    max-width: 850px;
+    margin: 40px auto;
+    color: #f0f0f0;
+    font-size: 3rem;
+    border-bottom: 2px solid #f0f0f0;
+
+}
+
+.projects-section .projects {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.projects-section .projects img {
+    width: 100%;
+    height: 100%;
+}
+.projects-section .btn-show-all {
+    transition: all .3s;
+    padding: 1rem 2rem;
+    background-color: #303841;
+    color: #f0f0f0;
+    font-size: 1.8rem;
+    border-radius:7px;
+}
+.projects-section .btn-show-all:hover {
+    background-color: #be3144;
+}

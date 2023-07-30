@@ -1,0 +1,38 @@
+/* 每个页面的公共样式 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    background-color: #be3144;
+}
+.header .w {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #f0f0f0;
+    font-size: 2rem;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+.nav li a {
+    display: block;
+    padding: 1.4rem;
+    color: #f0f0f0;
+    font-size: 1.5rem;
+}
+.nav li a:hover {
+    background-color: #45567d;
+}
